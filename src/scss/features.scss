@@ -1,0 +1,34 @@
+.feat {
+    margin-bottom: 116px;
+    .feat-wrap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-right: 0 -30px;
+    }
+
+    .feat-card {
+        margin-right: 0 30px;
+        .feat-card-img {
+            margin-bottom: 2.1875rem;
+
+            img {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+            }
+        }
+
+        .feat-card-title {
+            @include head4;
+            margin-bottom: 2.1875rem;
+        }
+
+        .feat-card-desc {
+            p {
+                @include head5;
+                color: $_desc-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+footer {
+    background-color: $_footer-color1;
+
+    .footer-card-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin: 0 -30px;
+
+        .footer-card {
+            width: 370px;
+            margin: 0 30px;
+
+            .footer-card-title {
+                font-family: 'Raleway';
+                font-size: 1.125rem;
+                font-weight: 700;
+                line-height: 1.3125rem;
+                text-transform: uppercase;
+                color: $_h1-color;
+                margin-bottom: 1.25rem;
+            }
+
+            .footer-card-desc {
+                @include head5;
+                color: $_h1-color;
+            }
+        }
+    }
+}
