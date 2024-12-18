@@ -3,56 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./scss/index.scss">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
-        <section class="navigation">
-            <div class="container">
-                <div class="navigation-wrap">
-                    <div class="navigation-logo">
-                        <img src="./img/banner/logo/Group 4.png" alt="">
-                    </div>
-                    <ul class="nav">
-                        <li class="nav__item">
-                            <a href="#">features</a>
-                        </li>      
-                        <li class="nav__item">
-                            <a href="#">works</a>
-                        </li>      
-                        <li class="nav__item">
-                            <a href="#">our team</a>
-                        </li>      
-                        <li class="nav__item">
-                            <a href="#">testimonials</a>
-                        </li>     
-                        <li class="nav__item">
-                            <a href="#">download</a>
-                        </li>      
+        <div class="container">
+            <div class="header-nav">
+                <a href="#" class="logo"><img src="./img/banner/Group_4.png" alt="#"></a>
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#">features</a></li>
+                        <li class="nav-item"><a href="#">works</a></li>
+                        <li class="nav-item"><a href="#">our team</a></li>
+                        <li class="nav-item"><a href="#">testimonials</a></li>
+                        <li class="nav-item"><a href="#">download</a></li>
                     </ul>
-                </div>
+                    <a id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./img/banner/menu.png" alt="#">
+                    </a>
+                </nav>
             </div>
-        </section>
-        <section class="main">
-            <div class="container">
-                <div class="main-wrap">
-                    <h1 class="main__title">
-                        Your Favorite One Page Multi Purpose Template
-                    </h1>
-                    <div class="main__desc">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.
-                        </p>
+                <div class="header-content">
+                    <h1 class="header-heading">Your Favorite One Page
+                        Multi Purpose Template</h1>
+                    <div class="header-desc">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna
+                            vel scelerisque nisl consectetur et.</p>
                     </div>
-                    <div class="main__butt">
-                        <a href="#" class="">
-                            Find Out More
-                        </a>
+                    <div>
+                        <a href="#" class="header-button">Find Out More</a>
                     </div>
                 </div>
-            </div>
-        </section>
+        </div>
+     </header>
     </header>
     <!-- секция features-->
     <section class="feat">
@@ -313,6 +298,90 @@
         </div>
     </section>
     <!--секция slider-->
+    <section class="slider-section">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="./img/testimonials/slide_1.jpg" alt="Slide Image 1">
+                      </div>
+                      <div class="slide-text">
+                        <div class="slide-title">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-desc">
+                            <p>Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="./img/testimonials/slide_2.jpg" alt="Slide Image 1">
+                      </div>
+                      <div class="slide-text">
+                        <div class="slide-title">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-desc">
+                            <p>Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="./img/testimonials/slide_3.jpg" alt="Slide Image 1">
+                      </div>
+                      <div class="slide-text">
+                        <div class="slide-title">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-desc">
+                            <p>Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="./img/testimonials/slide_4.jpg" alt="Slide Image 1">
+                      </div>
+                      <div class="slide-text">
+                        <div class="slide-title">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-desc">
+                            <p>Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide-content">
+                    <div class="slide-image">
+                        <img src="./img/testimonials/slide_5.jpg" alt="Slide Image 1">
+                      </div>
+                      <div class="slide-text">
+                        <div class="slide-title">
+                            <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-desc">
+                            <p>Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- <div class="swiper-button-next"></div> -->
+          <!-- <div class="swiper-button-prev"></div> -->
+    </section>
     <!-- секция download-->
      <section class="download">
         <div class="container">
@@ -383,6 +452,7 @@
             </div>
         </section>
     </footer>
-    <script type="module" src="./js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script type="module" src="./js/app.js"></script>
 </body>
 </html>

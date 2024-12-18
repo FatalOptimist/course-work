@@ -34,5 +34,37 @@
     font-weight: 700;
     line-height: 15px;
 }
+@mixin text_slider {
+    text-align: left;
+    font-family: 'Cardo';
+    font-style: italic;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 400;
+    color: $_h1-color;
+    text-transform: capitalize;
+}
+@mixin btn{
+    display: block;
+    padding: 27px 79px;
+    width: 370px;
+    background-color: $_main-color;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: $_text_button;
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: $_h1-color;
+    margin: auto;
+    transition: all .7s ease-out;
+    &:hover {
+        background-color: $_hover-color;
+    }
+    &:active{
+        box-shadow: 0px 0px 30px 0px $_main-color;
+        background-color: $_main-color;
+    }
+}
 
 
