@@ -17,7 +17,7 @@
                 margin-bottom: 56px;
             }
 
-            .team-card-img {
+            .team-card__img {
                 margin-bottom: 1.25rem;
                 width: 100%;
                 overflow: hidden;
@@ -34,18 +34,17 @@
                     left: 0;
                 }
 
-                // max-width: 100%;
-                // object-fit: cover;
+               
             }
 
-            .team-card-title {
+            .team-card__title {
                 font-family: 'Raleway';
                 font-size: 1.5rem;
                 font-weight: 700;
                 line-height: 1.75rem;
             }
 
-            .team-card-job {
+            .team-card__job {
                 font-family: 'Raleway';
                 font-size: 1.125rem;
                 font-weight: 400;
@@ -54,7 +53,7 @@
                 margin-bottom: 1.25rem;
             }
 
-            .team-card-desc {
+            .team-card__desc {
                 @include head5;
                 flex-grow: 1;
                 text-align: start;

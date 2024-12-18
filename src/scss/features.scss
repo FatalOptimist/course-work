@@ -20,7 +20,7 @@
 
     .feat-card {
         margin-right: 0 30px;
-        .feat-card-img {
+        .feat-card__img {
             margin-bottom: 2.1875rem;
             width: 100px;
             height: 100px;
@@ -39,12 +39,12 @@
             }
         }
 
-        .feat-card-title {
+        .feat-card__title {
             @include head4;
             margin-bottom: 2.1875rem;
         }
 
-        .feat-card-desc {
+        .feat-card__desc {
             p {
                 @include head5;
                 color: $_desc-color;

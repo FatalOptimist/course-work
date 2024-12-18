@@ -1,4 +1,3 @@
-
 .pre-footer {
     background-color: $_footer-color1;
     padding: 71px 0;
@@ -47,10 +46,10 @@
 .end {
     background-color: $_footer-color2;
     padding: 24px 0;
-    .footer-wrap {
+    .end-wrap {
         justify-content: center;
         align-content: center;
-        .footer-copy {
+        .end-copy {
             width: 370px;
             margin: auto;
             @media (max-width: 575px) {
