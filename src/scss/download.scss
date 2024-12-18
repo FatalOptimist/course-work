@@ -1,0 +1,50 @@
+.download {
+    margin-bottom: 114px;
+    .download-wrap {
+        .download-title {
+            font-family: 'Raleway';
+            font-size: 1.875rem;
+            font-weight: 700;
+            line-height: 35px;
+            margin-bottom: 30px;
+        }
+        .download-desc {
+                font-family: 'Raleway';
+                font-size: 1.125rem;
+                font-weight: 700;
+                line-height: 21px;
+                text-transform: uppercase;
+                margin-bottom: 50px;
+        }
+        .download-butt {
+            width: 370px;
+            margin: auto;
+            background-color: $_main-color;
+            cursor: pointer;
+            padding: 20px 60px;
+            @media (max-width:575px) {
+                max-width: 270px;
+                padding: 31px 50px;
+            }
+            a {
+                font-family: 'Raleway';
+                color: #fff;
+                font-size: 1.5rem;
+                font-weight: 900;
+                line-height: 28px;
+                text-transform: uppercase;
+                @media (max-width: 575px) {
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+            }
+            &:hover {
+                background-color: $_hover-color;
+            }
+            &:active {
+                background-color: $_main-color;
+                box-shadow: 4px 4px 30px 0px $_main-color;
+            }
+        }
+    }
+}
